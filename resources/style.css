@@ -1,0 +1,14 @@
+/*Universal Styles */
+
+html {
+    background-color: #2F3E3D;
+    color: #F4F2C7;
+}
+
+#main_logo {
+    height: 300px;
+}
+
+.language_logo {
+    height: 125px;
+}
