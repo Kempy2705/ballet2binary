@@ -3,12 +3,58 @@
 html {
     background-color: #2F3E3D;
     color: #F4F2C7;
+    box-sizing: border-box;
+}
+
+
+.language_logo {
+    height: 125px;
+}
+
+
+
+/* HEADER RULES */
+
+/*<---------------------------------------------------> */
+
+/* Flex Container */
+header {
+    border-bottom: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #main_logo {
     height: 300px;
 }
 
-.language_logo {
-    height: 125px;
+/* Flex Items */
+#profile_pic {
+    padding: 10px;
+}
+
+#profile_pic img {
+    height: 225px;
+}
+
+
+/*<---------------------------------------------------> */
+
+
+/* BODY RULES */
+
+#grid_container {
+    display: grid;
+    grid-template-columns: 250px 1fr 250px;
+    grid-template-rows: 100vh;
+}
+
+
+#left_sidebar {
+    background-color: #6FA97B;
+}
+
+#right_sidebar {
+    background-color: #6FA97B;
 }
