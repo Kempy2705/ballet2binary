@@ -66,15 +66,36 @@ header {
 
 #left_sidebar {
     background-color: #6FA97B;
-    border: solid red 2px;
-}
-
-
-#main-content {
-    border: solid yellow 2px;
 }
 
 #right_sidebar {
     background-color: #6FA97B;
-    border: solid blue 2px;
 }
+
+/* Programming Experience Section */
+
+.language_logo {
+    padding: 1rem;
+}
+
+
+
+/*<---------------------------------------------------> */
+
+
+/* Fun Facts Section */
+
+
+/*<---------------------------------------------------> */
+
+
+
+
+/* Footer Section */
+
+footer {
+    border-top: solid 2px black;
+}
+
+
+/*<---------------------------------------------------> */
