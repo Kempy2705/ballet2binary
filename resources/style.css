@@ -77,6 +77,10 @@ header {
     padding: 1rem;
 }
 
+.programming-area strong{
+    text-decoration: underline;
+}
+
 
 
 /*<---------------------------------------------------> */
@@ -116,6 +120,7 @@ footer {
 
 #footer-list {
     display: inline-flex;
+    text-decoration: underline;
     gap: 2rem;
 }
 
