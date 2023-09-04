@@ -85,6 +85,24 @@ header {
 
 /* Fun Facts Section */
 
+#fun-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.fact {
+    border-radius: 15%;
+    padding: 5px;
+    display: flex;
+    height: 125px;
+    width: 200px;
+    overflow-wrap: break-word;
+    align-items: center;
+    background-color: #6FA97B;
+}
+
+
 
 /*<---------------------------------------------------> */
 
@@ -95,6 +113,11 @@ header {
 
 footer {
     border-top: solid 2px black;
+}
+
+#footer-list {
+    display: inline-flex;
+    gap: 2rem;
 }
 
 
