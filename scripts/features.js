@@ -41,9 +41,4 @@ funFact3.addEventListener('mouseout', restoreMystery);
 
 
 
-// funFact.forEach((item) => {
-//     item.addEventListener('mouseover', changeBackgroundColor);
-//     item.addEventListener('mouseout', restoreBackgroundColor);
-// });
-
 
