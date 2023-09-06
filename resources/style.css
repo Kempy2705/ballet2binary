@@ -133,3 +133,49 @@ footer {
 
 
 /*<---------------------------------------------------> */
+
+
+/* Media Queries for Smaller Screens */
+
+@media  screen and (max-width: 900px) {
+    #main_logo {
+        height: 150px;
+    }
+    #profile_pic img {
+        height: 125px ;
+    }
+}
+
+
+
+/* Mobile Media Queries */
+
+@media  screen and (max-width: 400px) {
+    #main_logo {
+        height: 125px;
+    }
+    #profile_pic img {
+        height: 100px ;
+    }
+    #grid_container {
+        grid-template-columns: 1fr;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    p {
+        max-width: 75%;
+        text-align: center;
+    }
+
+    #fun-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 2px;
+    }
+}
