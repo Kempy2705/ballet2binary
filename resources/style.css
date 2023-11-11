@@ -21,6 +21,10 @@ li {
     list-style: none;
 }
 
+li p {
+    text-align: left;
+}
+
 .language_logo {
     height: 125px;
 }
