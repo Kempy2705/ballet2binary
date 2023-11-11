@@ -29,6 +29,11 @@ li p {
     height: 125px;
 }
 
+.break-line {
+    height: 2px;
+    width: 100%;
+    background-color: black;
+}
 
 
 /* HEADER RULES */
