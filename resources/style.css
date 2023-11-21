@@ -27,12 +27,28 @@ li p {
 
 .language_logo {
     height: 125px;
+    padding: 1rem;
 }
 
 .break-line {
     height: 2px;
     width: 100%;
     background-color: black;
+}
+
+.web-link {
+    color: #F4F2C7;
+    
+}
+
+.web-link:active {
+    color: rgb(120, 120, 254);
+    
+}
+
+.web-link:visited {
+    color: rgb(235, 199, 244);
+    
 }
 
 
@@ -83,8 +99,16 @@ header {
 
 /* Programming Experience Section */
 
-.language_logo {
-    padding: 1rem;
+
+.app-logo {
+    height: 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.app-logo:hover {
+    height: 125px;
 }
 
 .programming-area strong{
